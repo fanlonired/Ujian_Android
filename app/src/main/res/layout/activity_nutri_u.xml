@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NutriU"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:background="@drawable/atas"
+        android:backgroundTint="#888181"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/src">
+
+            <androidx.appcompat.widget.SearchView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Cari"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="180dp"
+                android:src="@drawable/garis" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mulailah dengan jus,"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="120dp"
+            android:layout_gravity="center"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Smoothie, dan banyak lagi!"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Temukan resep, video, dan inspirasi untuk"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Memaksimalkan blender dan juicer Anda tepat di"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="aplikasi NutriU ini."
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ide segar untuk anda"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Berdasarkan aktivitas anda"
+        android:textSize="15dp"
+        android:layout_marginLeft="20dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+            <ImageView
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/pisang"/>
+
+
+
+        <ImageView
+            android:layout_width="170dp"
+            android:layout_height="120dp"
+            android:scaleType="centerCrop"
+            android:layout_marginLeft="50dp"
+            android:src="@drawable/img"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="-10dp">
+
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/bola"/>
+
+        <ImageView
+            android:layout_width="83dp"
+            android:layout_height="65dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="40dp"
+            android:src="@drawable/resep" />
+
+        <ImageView
+            android:layout_width="54dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="40dp"
+            android:src="@drawable/artikel" />
+
+        <ImageView
+            android:layout_width="53dp"
+            android:layout_height="59dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+            android:src="@drawable/profil" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
